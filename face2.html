@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            background-image: url(Assert/brick.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+            top: 300px;
+            font-size: 50px;
+            color: goldenrod;
+        }
+        h2{
+            text-align: center;
+            top: 300px;
+            font-size: 30px;
+            color: orange; 
+        }
+
+         .smily{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            border-radius: 50%;
+            border: 7px solid black;
+        }
+        .eyes:before, .eyes:after{
+            content: "";
+            position: absolute;
+            top: 30%;
+            width: 25px;
+            height: 25px;
+            background: black;
+            border-radius:50% ;
+            transition: 1s;
+
+        }
+        .eyes:before{
+            left: 25%;
+        }
+        .eyes:after{
+            right: 25%;
+        }
+        .smily:hover .eyes:before, .smily:hover .eyes:after{
+            width: 30px;
+            height: 45px;
+        }
+        .lips{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border: 6px solid transparent;
+            border-bottom: 10px solid black;
+            top: 20%;
+            left: 22%;
+            transition: 1s;
+           
+            border-radius:0%;
+            transform: translateX(-50%,);
+            
+        }
+        .smily:hover .lips{
+            width: 100px;
+            border-radius:50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>𝐌α𝗄𝖾 𝐌𝖾 𝐒ꭑ𝗂ᥣ𝖾 𝐖𝗂𝗍ɦ 𝐘ⱺυ𝗋 𝐇α𐓣ᑯ𝗌
+    </h1>
+    <div class="smily">
+        <div class="eyes"></div>
+            <div class="lips"></div>
+
+</div><br><br><br><br><br><br><br><br><br><br><br><br>
+<h2>ʟɨʄɛ ɨֆ ɮɛȶȶɛʀ աɨȶɦʏօʊʀ ֆʍɨʟɛ!</h2>
+    
+</body>
+</html>
